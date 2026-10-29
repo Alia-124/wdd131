@@ -2,9 +2,89 @@
 <html lang="en">
     <head>
     <meta charset="UTF-8">
-    <meta name="Vviewport" content="Width=device-width, intial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals. A course about building dynamic web applications.">
+    <meta name ="author" content="Nancy Salaiau">
+    
+    <title>WDD 131 - Dynamic Web Fundamentals - Nancy Salaiau</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="scripts/getdates.js" defer></script>
     </head>
     <body>
-        <h1>WDD 131 - Nancy</h1>
+        <header>
+            <span id ="course-tittle">WDD 131 - Dynamic Web Fundamentals</span>
+
+            <nav aria-label="Main navigation">
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://byupw.instructure.com/" target="_blank" rel="noopener noreferrer">Canvas</a>
+                <a href="https://www.churchofjesuschrist.org/study/scriptures" target="_blank" rel="noopener noreferrer">Scriptures</a>
+                <a href="project/">Final Project</a>
+            </nav>
+        </header>
+        <main>
+            <h1>Nancy Piwen Kasama salaiau</h1>
+            
+            <div class="cards">
+                <section class="card about-card">
+                    <h2>About Me</h2>
+
+                    <div class="card-content">
+                        <div class="about-text">
+                            <p>My name is Nancy Piwen Kasama Salaiau. I am a student
+                            learning wed development throught WDD131. I enjoy learning new skills,spending time 
+                            with my family and friends,and discovering new ways to solve problems with technology.
+                            </p>
+                            <p>My goal is to develop my HTML,CSS,and Javascript skills and create
+                                websites that are attractive,accessible,and easy to use.
+                            </p>
+                        </div>
+                        <img src="images/profile.jpg"
+                        alt="nancy salaiau"
+                        width="200"
+                        height="250"
+                        >
+                    </div> 
+                    <h3>My Home Country</h3>  
+                    <div class="country-contect">
+                    <img src="images/fiji flag.jpg"
+                        alt="flag of my home country"
+                        width="200"
+                        height="150"
+                        >
+                        <p>Fiji is a beautiful island nation in the South Pacific, Known for its welcoming communities,
+                            turquoise water,tropical landscapes,and rich cultural heritage. The country is made up of over 300 islands, each with its own unique charm and attractions. Fiji is a popular destination for tourists seeking relaxation, adventure, and a taste of the local culture. The Fijian people are known for their warmth and hospitality, making visitors feel at home in this tropical paradise.
+                        </p>
+                    </div> 
+                </section>
+
+                <section class="card resources-card">
+                    <h2>Resources</h2>
+                    <ul>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">JavaScript MDN</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/" target="_blank" rel="noopener noreferrer">MDN Web Docs</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Performance" target="_blank" rel="noopener noreferrer">JavaScript Performance</a></li>
+                        <li><a href="https://www.w3.org/">World Wide Web Consortium</a></li>
+                        <li><a href="https://font.google.com/" target="_blank" rel="noopener noreferrer">Google Fonts</a></li>
+                    </ul>
+                        <p>These resources will help me learn and improve my web development skills
+                            and build responsive websites throughout this course.
+                        </p>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; <span id="2026"></span>
+                 Nancy Salaiau | Fiji
+            </p>
+            <p>
+                id="last-modified">Last Modified: <span id="last-modified-date"></span>
+            </p>
+
+        </footer>
     </body>
     </html>
