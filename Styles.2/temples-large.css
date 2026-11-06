@@ -1,0 +1,23 @@
+@media scren and (min-width:40rem){
+    .menue-buttom{
+        display:none;
+    }
+}
+.header{
+    flex-wrap:nowrap;
+}
+nav{
+    display:flex;
+    flex-direction: row;
+    justfy-content:flex-end;
+    width:auto;
+}
+.temple-grid{
+    grid-template-columns: repeat(2,1fr);
+}
+
+@media screen and (min-width:65rem){
+    .temple-grid{
+        grid-template-columns: repeat(3,1fr);
+        }
+}
